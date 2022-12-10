@@ -20,9 +20,9 @@ class ListingView extends GetView<ListingController> {
                 leading: FadeInImage(
                   image: NetworkImage(
                       "https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appid!}/header.jpg"),
-                  placeholder: AssetImage("assets/indir.jpeg"),
+                  placeholder: AssetImage("assets/cercevesiz.png"),
                   imageErrorBuilder: (context, error, stackTrace) {
-                    return Image.asset("assets/indir.jpeg");
+                    return Image.asset("assets/cercevesiz.png");
                   },
                 ),
                 title: Text(game.name!),
