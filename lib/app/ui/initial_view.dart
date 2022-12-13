@@ -90,7 +90,7 @@ class InitialView extends GetView<InitialController> {
                               content: const Text(
                                   "TR:Steam ve Valve şirketleriyle hiçbir bağlantımız yoktur."
                                   "Gösterilen bilgiler herkese açıktır ve hiçbir yerde saklanmaz."
-                                  "EN: We have no affiliation with Steam and Valve companies."
+                                  "                                              EN: We have no affiliation with Steam and Valve companies."
                                   "The information shown is public and is not stored in anywhere"),
                               action: SnackBarAction(
                                 label: "Geri / Back",
